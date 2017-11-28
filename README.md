@@ -9,6 +9,7 @@ Versions conseillées :
 * Twig = 1.35.0
 * Php : >= 5.3.3
 * Doctrine 2.5.12
+
 (Bien évidemment fonctionnel sous Symfony 3.0.0 et Twig 1.23.1 via une installation normale, voir : https://symfony.com/doc/current/setup.html )
 
 Installation : 
