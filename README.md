@@ -44,7 +44,8 @@ guillaume_auto_db:
 </code>
 </pre>
 
-- Mettez à jour votre autoloader pour inclure vos nouvelles Class : composer dump-autoload
+- Mettez à jour votre autoloader pour inclure vos nouvelles Class :
+<pre><code>composer dump-autoload</code></pre>
 
 Vous trouverez les différentes routes de votre projet via la commande : php bin/console debug:router
 
