@@ -1,5 +1,4 @@
 INSTRUCTIONS D'UTILISATION DU BUNDLE "AutoDbBundle"
-
 ===================================================
 
 Bundle développé sous Symfony 3
@@ -14,6 +13,7 @@ Versions conseillées :
 
 Installation : 
 ==============
+
 - Insérez le "Vendor" Guillaume avec son Bundle "AutoDbBundle" dans le dossier src/ de votre projet Symfony.
 
 - Ajoutez le bundle dans le fichier composer.json qui se trouve à la racine dans la partie psr-4, si une erreur "Class not found" s'affiche, remplacez les bundles par :
