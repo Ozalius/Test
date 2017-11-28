@@ -4,6 +4,7 @@ INSTRUCTIONS D'UTILISATION DU BUNDLE "AutoDbBundle"
 Bundle développé sous Symfony 3
 
 Versions conseillées : 
+
 	* Symfony = 3.3.x
 	* Twig = 1.35.0
 	* Php : >= 5.3.3
