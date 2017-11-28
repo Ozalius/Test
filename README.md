@@ -48,7 +48,6 @@ guillaume_auto_db:
 
 Vous trouverez les différentes routes de votre projet via la commande : php bin/console debug:router
 
-=====================================================
 Utilisation : 
 =============
 
