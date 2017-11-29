@@ -83,7 +83,8 @@ Partie attributs et associations.
 
 Chaque entités possède des attributs et associations, pour l'instant seul les types integer, string, text et boolean sont disponibles, javascript doit être activé pour profiter des différentes possibilités de la page.
 
-Pour ajouter des attributs à une entité, il suffit de cliquer sur le bouton "+", à chaque nouvel input, le numéro à la fin de chaque attribut name s'additionne au précédent, exemple :
+Pour ajouter des attributs à une entité, il suffit de cliquer sur le bouton "+", à chaque nouvelle balise input et checkbox, le numéro à la fin de chaque attribut name s'additionne au précédent, exemple :
 - name="EntiteA_x0" <- par défaut lors du chargement de la page
 - name="EntiteA_x1" <- ajout via javascript
 - name="EntiteA_x2" <- ajout via javascript
+Ce type de nommage servira pour les associations
