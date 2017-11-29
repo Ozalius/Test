@@ -128,3 +128,8 @@ C'est la partie qui créait les différents fichiers avec l'archive zip.
 ==========
 
 Cette page permet de télécharger l'archive zip qui est disponible par défaut dans le dossier web du projet.
+
+Bugs connus :
+=============
+
+Si la précédente archive n'a pas été supprimée ou renommée dans le dossier web, un message d'erreur de type flash s'affiche, cependant les anciens fichiers sont encore en mémoire et une erreur : <pre><code>Parse error: syntax error, unexpected '<', expecting end of file</code></pre> s'affichera lors de la mise à jour de la base de données, supprimez le dernier zip crée dans votre dossier /web et relancer le formulaire de la page /autodb_p3.
