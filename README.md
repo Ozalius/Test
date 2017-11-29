@@ -56,7 +56,7 @@ Guide d'utilisation :
 
 Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionant sous Doctrine.
 
-***Seul les associations unidirectionnel sont disponibles.***
+***Seul les associations unidirectionnelles sont disponibles.***
 
 Les différentes routes du bundle : 
 
@@ -66,3 +66,24 @@ Les différentes routes du bundle :
 * /autodb_p4
 * /autodb_p5
 
+/autodb_p1
+==========
+
+Page permettant de choisir le nombre d'entités.
+
+/autodb_p2?nbEntite=n
+=====================
+
+Choix du nom de chaque entités
+
+/autodb_p3
+==========
+
+Partie attributs et associations.
+
+Chaque entités possède des attributs et associations, pour l'instant seul les types integer, string, text et boolean sont disponibles, javascript doit être activé pour profiter des différentes possibilités de la page.
+
+Pour ajouter des attributs à une entité, il suffit de cliquer sur le bouton "+", à chaque nouvel input, le numéro à la fin de chaque attribut name s'additionne au précédent, exemple :
+- name="EntiteA_x0" <- par défaut lors du chargement de la page
+- name="EntiteA_x1" <- ajout via javascript
+- name="EntiteA_x2" <- ajout via javascript
