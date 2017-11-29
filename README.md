@@ -101,7 +101,7 @@ Exemple :
 * nameForeignKey = EntiteB_x0
 * referencedColumnName = EntiteB_x0
 
-Résultat final :
+Résultat final dans la base de données :
 * Select : ManyToOne
 * EntiteA
 * -id
