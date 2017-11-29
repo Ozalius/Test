@@ -58,9 +58,9 @@ Guide d'utilisation :
 
 **Attention aux droits d'écritures, un mauvais paramétrage pourrait empêcher le bon fonctionnement de ce bundle**
 
-Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionnant sous Doctrine.
-
 **Seul les associations unidirectionnelles sont disponibles.**
+
+Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionnant sous Doctrine.
 
 Les différentes routes du bundle : 
 
