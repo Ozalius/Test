@@ -96,6 +96,7 @@ Une fois les différents attributs sélectionnés, il faut choisir une associati
 S'il en existe une, il faut choisir l'une des associations existantes,
 
 Une association contient un choix d'entité à sélectionner, un "nameForeignKey" et un "referencedColumnName" doivent être choisis, ils pointent vers la clé primaire, le "nameForeignKey" est le nom qui sera enregistré dans la base de données et "referencedColumnName" est la clé primaire de l'entité choisie, sélectionnez la clé primaire souhaitée.
+Un bouton "Nouvelle association" est disponible.
 
 
 Exemple : 
@@ -113,3 +114,13 @@ Résultat final dans la base de données :
 -------------------
 * EntiteB
 * -id
+
+/autodb_p4
+==========
+
+C'est la partie qui créait les différents fichier avec l'archive zip.
+
+/autodb_p5
+==========
+
+Cette page permet de télécharger l'archive zip qui est disponible dans le dossier web du projet.
