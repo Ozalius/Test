@@ -106,6 +106,6 @@ Résultat final :
 * EntiteA
 * -id
 * -EntiteB_id
-
-* EntiteB
-* -id
+-------------------
+> EntiteB
+> -id
