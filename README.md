@@ -56,6 +56,8 @@ Vous trouverez les différentes routes de votre projet via la commande :
 Guide d'utilisation : 
 =============
 
+**Attention aux droits d'écritures, un mauvais paramétrage pourrait empêcher le bon fonctionnement de ce bundle**
+
 Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionnant sous Doctrine.
 
 **Seul les associations unidirectionnelles sont disponibles.**
@@ -120,9 +122,9 @@ Résultat final dans la base de données :
 /autodb_p4
 ==========
 
-C'est la partie qui créait les différents fichier avec l'archive zip.
+C'est la partie qui créait les différents fichiers avec l'archive zip.
 
 /autodb_p5
 ==========
 
-Cette page permet de télécharger l'archive zip qui est disponible dans le dossier web du projet.
+Cette page permet de télécharger l'archive zip qui est disponible par défaut dans le dossier web du projet.
