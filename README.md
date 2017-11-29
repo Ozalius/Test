@@ -15,7 +15,9 @@ Versions conseillées :
 Installation : 
 ==============
 
-- Insérez le "Vendor" Guillaume avec son Bundle "AutoDbBundle" dans le dossier src/ de votre projet Symfony.
+_Cette étape peut être sautée, l'installation de ce bundle est basique._
+
+- Insérez le "Vendor" Guillaume avec son bundle "AutoDbBundle" dans le dossier src/ de votre projet Symfony.
 
 - Ajoutez le bundle dans le fichier composer.json qui se trouve à la racine dans la partie psr-4, si une erreur "Class not found" s'affiche, remplacez les bundles par :
 
@@ -54,7 +56,7 @@ Vous trouverez les différentes routes de votre projet via la commande :
 Guide d'utilisation : 
 =============
 
-Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionant sous Doctrine.
+Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionnant sous Doctrine.
 
 ***Seul les associations unidirectionnelles sont disponibles.***
 
@@ -74,14 +76,14 @@ Page permettant de choisir le nombre d'entités.
 /autodb_p2?nbEntite=n
 =====================
 
-Choix du nom de chaque entités
+Choix du nom de chaque entité.
 
 /autodb_p3
 ==========
 
 Partie attributs et associations.
 
-Chaque entités possède des attributs et associations, pour l'instant seul les types integer, string, text et boolean sont disponibles, javascript doit être activé pour profiter des différentes possibilités de la page.
+Chaque entité possède des attributs et associations, pour l'instant seul les types integer, string, text et boolean sont disponibles, javascript doit être activé pour profiter des différentes fonctionnalités de la page.
 
 Pour ajouter des attributs à une entité, il suffit de cliquer sur le bouton "+", à chaque nouvelle balise input et checkbox, le numéro à la fin de chaque attribut name s'additionne au précédent, exemple :
 - name="EntiteA_x0" <- par défaut lors du chargement de la page
@@ -91,9 +93,9 @@ Pour ajouter des attributs à une entité, il suffit de cliquer sur le bouton "+
 Ce type de nommage servira pour les associations
 
 Une fois les différents attributs sélectionnés, il faut choisir une association, s'il n'en existe pas, laissez la balise select sur "Aucune"
-Si il en existe une, il faut choisir l'une des associations existantes,
+S'il en existe une, il faut choisir l'une des associations existantes,
 
-Une association contient un choix d'entité à sélectionner, un "nameForeignKey" et un "referencedColumnName" à choisir, qui pointe vers la clé primaire, le "nameForeignKey" est le nom qui sera enregistré dans la base de données et "referencedColumnName" est la clé primaire de l'entité choisit, sélectionnez la clé primaire souhaité.
+Une association contient un choix d'entité à sélectionner, un "nameForeignKey" et un "referencedColumnName" doivent être choisis, ils pointent vers la clé primaire, le "nameForeignKey" est le nom qui sera enregistré dans la base de données et "referencedColumnName" est la clé primaire de l'entité choisie, sélectionnez la clé primaire souhaitée.
 
 
 Exemple : 
