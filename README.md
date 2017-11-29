@@ -87,4 +87,5 @@ Pour ajouter des attributs à une entité, il suffit de cliquer sur le bouton "+
 - name="EntiteA_x0" <- par défaut lors du chargement de la page
 - name="EntiteA_x1" <- ajout via javascript
 - name="EntiteA_x2" <- ajout via javascript
+
 Ce type de nommage servira pour les associations
