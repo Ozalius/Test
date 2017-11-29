@@ -102,10 +102,10 @@ Exemple :
 * referencedColumnName = EntiteB_x0
 
 Résultat final :
-Select : ManyToOne
-EntiteA
--id
--EntiteB_id
+* Select : ManyToOne
+* EntiteA
+* -id
+* -EntiteB_id
 
-EntiteB
--id
+* EntiteB
+* -id
