@@ -51,8 +51,11 @@ guillaume_auto_db:
 Vous trouverez les différentes routes de votre projet via la commande :
 <pre><code>php bin/console debug:router</code></pre>
 
-Utilisation : 
+Guide d'utilisation : 
 =============
+
+Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionant sous Doctrine.
+***Seul les associations unidirectionnel sont disponibles.***
 
 Les différentes routes du bundle : 
 
