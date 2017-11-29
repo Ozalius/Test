@@ -90,14 +90,16 @@ Pour ajouter des attributs à une entité, il suffit de cliquer sur le bouton "+
 - name="EntiteA_x1" <- ajout via javascript
 - name="EntiteA_x2" <- ajout via javascript
 
-Ce type de nommage servira pour les associations
+Ce type de nommage servira pour les associations.
 
 Une fois les différents attributs sélectionnés, il faut choisir une association, s'il n'en existe pas, laissez la balise select sur "Aucune"
-S'il en existe une, il faut choisir l'une des associations existantes,
+S'il en existe une, il faut choisir l'un des types d'association existant.
 
-Une association contient un choix d'entité à sélectionner, un "nameForeignKey" et un "referencedColumnName" doivent être choisis, ils pointent vers la clé primaire, le "nameForeignKey" est le nom qui sera enregistré dans la base de données et "referencedColumnName" est la clé primaire de l'entité choisie, sélectionnez la clé primaire souhaitée.
+Une association contient un choix d'entité à sélectionner, un "nameForeignKey" et un "referencedColumnName", tous 3 obligatoires, "nameForeignKey" et "referencedColumnName" pointent vers la clé primaire (qui est sélectionnable via les attributs "name" des inputs ajoutés précédemment).
+
+Le "nameForeignKey" est le nom qui sera enregistré dans la base de données et "referencedColumnName" est la clé primaire de l'entité choisie, sélectionnez la clé primaire souhaitée.
+
 Un bouton "Nouvelle association" est disponible.
-
 
 Exemple : 
 * Choix = EntiteB
