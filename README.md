@@ -107,7 +107,7 @@ Résultat final dans la base de données :
 
 * EntiteA
 * -id
-* -EntiteB_id
+* -EntiteB_id null
 -------------------
 * EntiteB
 * -id
