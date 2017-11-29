@@ -107,5 +107,5 @@ Résultat final :
 * -id
 * -EntiteB_id
 -------------------
-> EntiteB
-> -id
+* EntiteB
+* -id
