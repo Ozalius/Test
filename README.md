@@ -15,7 +15,7 @@ Versions conseillées :
 Installation : 
 ==============
 
-_Cette étape peut être sautée, l'installation de ce bundle est basique._
+_**Cette étape peut être sautée, l'installation de ce bundle est basique.**_
 
 - Insérez le "Vendor" Guillaume avec son bundle "AutoDbBundle" dans le dossier src/ de votre projet Symfony.
 
@@ -58,7 +58,7 @@ Guide d'utilisation :
 
 Ce projet est une première version sous Symfony 3, il permet de créer des entités fonctionnant sous Doctrine.
 
-***Seul les associations unidirectionnelles sont disponibles.***
+**Seul les associations unidirectionnelles sont disponibles.**
 
 Les différentes routes du bundle : 
 
